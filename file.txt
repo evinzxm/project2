@@ -1,1 +1,59 @@
-nee aara koppe
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome | Project2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f4f6;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    header {
+      background: #2563eb;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 15px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 40px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Project2</h1>
+    <p>Deployed automatically using Jenkins 🚀</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h2>This is your default homepage</h2>
+    <p>You can edit this file and push changes to GitHub — Jenkins will deploy them automatically!</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Project2. All rights reserved.</p>
+  </footer>
+</body>
+</html>
